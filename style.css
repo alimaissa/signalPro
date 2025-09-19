@@ -1,0 +1,42 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background: #f4f7fa;
+  color: #222;
+  text-align: center;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #0077b6;
+  color: white;
+  padding: 1em;
+  border-bottom: 5px solid #023e8a;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #0096c7;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background: #0077b6;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 1em;
+  background: #023e8a;
+  color: white;
+}
