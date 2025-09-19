@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>SignalPro - مكتبة الإشارة والشبكات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📡 SignalPro</h1>
+    <p>مكتبة مفتوحة لتعليم الشبكات والكوابل</p>
+    <nav>
+      <a href="pages/cables.html">الكابلات</a>
+      <a href="pages/fiber.html">الألياف الضوئية</a>
+      <a href="pages/troubleshooting.html">مشاكل وحلول</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>🔧 أدوات سريعة</h2>
+    <button onclick="calculateLoss()">حساب الفقد (Fiber)</button>
+    <button onclick="maxLength()">أقصى طول كابل (Ethernet)</button>
+    <div id="result"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 SignalPro | مشروع مفتوح المصدر</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
